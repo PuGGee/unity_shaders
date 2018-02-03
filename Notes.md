@@ -10,3 +10,12 @@
       fixed Gloss;     // specular intensity
       fixed Alpha;     // alpha for transparencies
     }
+
+Input structure:
+
+    float3 viewDir
+    float4 COLOR
+    floar4 screenPos
+    float3 worldPos
+    float3 worldRefl
+    float3 worldNormal
